@@ -6,7 +6,7 @@ session_start();
 <title>Accueil - Module de Connexion</title>
 
 <div class="container">
-    <h1>Bienvenue sur notre site !</h1>
+    <h1>Bienvenue sur Capybaraland !</h1>
     <div class="welcome">
         <?php if (isset($_SESSION['user_id'])): ?>
             <p>Bonjour <strong><?php echo htmlspecialchars($_SESSION['prenom'] . ' ' . $_SESSION['nom']); ?></strong> !</p>
